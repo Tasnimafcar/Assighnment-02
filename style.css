@@ -167,11 +167,6 @@ color: transparent;
 .foot{
      margin-top: 40px;
 }
-/* .container{
-    justify-content: center;
-    align-items: center;
-    color: #FFFFFF;
-} */
 .card-container{
     display: flex;
     justify-content: center;
