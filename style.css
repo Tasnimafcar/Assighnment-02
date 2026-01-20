@@ -47,3 +47,123 @@ color: transparent;
     background-clip: text;
     color: transparent;
 }
+.banner-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 60px 0;
+    position: relative;
+    overflow: hidden;
+}
+.image-container{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.hero-circle{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+}
+.circle{
+    width: 100%;
+    height: auto;
+} 
+.mic{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+}
+.banner-image{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+    z-index: 1;
+    opacity: 0.5;
+}
+.new-badge{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #00ff88;
+    color: #1A0B2E;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.banner-h1{
+    font-size: 3.75rem;
+    color: #FFFFFF;
+    margin: 10px 0;
+}
+.banner-p{
+    font-size: 1rem;
+    color: #FFFFFF;
+    margin: 8px 0;
+}
+.banner-btn{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 25px;
+    width: auto;
+    height: 44px;
+    align-items: center;
+    padding: 12px 20px;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 1000px;
+    color: #FFFFFF;
+    background: linear-gradient(to right, #F7E93F 0%,#FB09B4,#9100F8);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    cursor: pointer;
+}
+.spotify-btn{
+    width: auto;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 25px;
+    padding: 12px 20px;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 1000px;
+    color: #FFFFFF;
+    background: linear-gradient(to right, #F7E93F 0%,#FB09B4,#9100F8);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    cursor: pointer;
+}
+.about-section{
+    padding: 80px 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+.about-title{
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+.banner-container{
+    font-size: 1rem;
+}
+.foot{
+     margin-top: 40px;
+}
