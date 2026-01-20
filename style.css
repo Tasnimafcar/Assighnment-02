@@ -167,60 +167,27 @@ color: transparent;
 .foot{
      margin-top: 40px;
 }
-.container{
+/* .container{
     justify-content: center;
     align-items: center;
     color: #FFFFFF;
-}
+} */
 .card-container{
     display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    color: #FFFFFF;
 }
-.first{
-    margin-left: 460px;
-    margin-right: 80px;
-    margin-top: auto;
-    margin-bottom: auto;
+.first, .second, .third, .fourth{
+    margin: 0;
+    text-align: center;
 }
-.first-one{
+
+.first-one, .second-one, .third-one, .fourth-one{
     font-weight: 900;
     font-size: 3rem;
     color: #00ff88;
-    text-align: center;
-    margin-bottom: 16px;
-}
-.secound{
-    margin-right: 80px;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-.secound-one{
-    font-weight: 900;
-    font-size: 3rem;
-    color: #00ff88;
-    text-align: center;
-    margin-bottom: 16px;
-}
-.thired{
-    margin-right: 80px;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-.thired-one{
-    font-weight: 900;
-    font-size: 3rem;
-    color: #00ff88;
-    text-align: center;
-    margin-bottom: 16px;
-}
-.fourth{
-    margin-right: 80px;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-.fourth-one{
-    font-weight: 900;
-    font-size: 3rem;
-    color: #00ff88;
-    text-align: center;
     margin-bottom: 16px;
 }
